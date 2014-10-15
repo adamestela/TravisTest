@@ -3,6 +3,8 @@ node_js:
   - "0.10"
 env:
   - MY_ENV_VAR="Im an environment varible."
+before_install:
+  - npm install -g bower
 install:
   - bower install
 script: 
