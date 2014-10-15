@@ -1,6 +1,10 @@
 language: node_js
 node_js:
   - "0.10"
+env:
+  - MY_ENV_VAR="Im an environment varible."
+install:
+  - bower install
 script: 
  - ./test_selection
  - ./custom_thing
