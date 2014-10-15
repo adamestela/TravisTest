@@ -2,11 +2,12 @@ language: node_js
 node_js:
   - "0.10"
 env:
-  - MY_ENV_VAR="Im an environment varible."
+  - MY_ENV_VAR="Im an environment varible." 		# Example setting up a system environment variable.
 before_install:
-  - npm install -g bower
+  - npm install -g bower							# Install bower package manager.
 install:
-  - bower install
+  - bower install 									# Install dependencies from bower.json
+  - npm install 									# Install dependencies from package.json
 script: 
- - ./test_selection
- - ./custom_thing
+ - ./test_selection 								# Run the appropriate tests based on what files changed.
+ - ./custom_thing 									# Example running multiple scripts.

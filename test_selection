@@ -1,4 +1,6 @@
 #!/bin/sh
 
 echo "Beginning test selection."
+echo "Super awesome selection algorithm decides to run mocha."
+mocha "test/myControllerTest.js"
 echo "Finished testing."
