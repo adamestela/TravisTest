@@ -1,0 +1,21 @@
+<DOCTYPE html>
+<html ng-app>
+
+<head>
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="../bower_components/angular/angular.min.js"></script>
+	<script src='../controllers/myController.js'></script>
+</head>
+
+<body ng-controller='myController'>
+	<h3>Reverse String</h1>
+	<form>
+		Word to reverse: <input type='text' id='phraseInput'>
+		<br>
+		<input ng-click='reversePhrase();' type='submit' value='Reverse!'>
+	</form>
+	<p>{{ myOutput }}</p>
+
+</body>
+
+</html>
