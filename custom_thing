@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "-----------------------"
+echo "Beginning custom thing."
+echo "Finished custom thing."
+echo "-----------------------"
