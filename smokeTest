@@ -1,0 +1,4 @@
+# Run a smoke screen to be able to create PR with fair ammount of confidence.
+
+mocha test/myControllerTest.js
+#mvn a;sdfal;dfl -groups push aldjf;df
