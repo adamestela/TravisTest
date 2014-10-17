@@ -68,6 +68,7 @@ Importing our project will take no time
 [ci skip]
 Guaranteed completely isolated clean build state for every run (*guaranteed* we don't manage)
 Cancel / refresh build
+Standardizes build process for devs -- ensure accurate testing (Will build if needed)
 
 Cons
 ----------------------------------------------
