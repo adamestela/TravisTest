@@ -2,3 +2,8 @@
 
 mocha test/myControllerTest.js
 #mvn a;sdfal;dfl -groups push aldjf;df
+
+#run other smoke tests in sub directories
+./controllers/test/smokeTest
+
+#sub directory smoke tests will hopefully also encourage devs to write tests for features they just made, since it's easy to contribute to, set up, and run.
